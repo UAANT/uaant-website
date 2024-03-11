@@ -1,63 +1,78 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+# Ukrainian-Australian Association of Northern Territory (UAANT) Website
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+This repository contains the source code for the official website of the Ukrainian-Australian Association of Northern Territory (UAANT). 
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) feature using Markdown files as the data source.
+UAANT is dedicated to fostering a vibrant and supportive community for Ukrainians in the Northern Territory of Australia.
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+## About UAANT
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+UAANT aims to assist Ukrainians who have chosen to make the Northern Territory their home by providing valuable resources, support, and a sense of community. Our efforts are focused on community engagement, cultural promotion, and support services for the Ukrainian community in the region.
 
-## Demo
+Whether you're a newcomer seeking support or an individual passionate about contributing to our community, we welcome your involvement. Join us in building a strong and connected Ukrainian community in the Northern Territory.
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+## Development
 
-## Deploy your own
+This website is built using [Next.js](https://nextjs.org/), a React framework for production, and is designed to be deployed on platforms like Vercel or Firebase Hosting for optimal performance.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter)
+### Prerequisites
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+Before running this project, make sure you have the following installed:
+- Node.js (LTS version)
+- npm or Yarn (as your package manager)
 
-### Related examples
+### Installation
 
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [Cosmic](/examples/cms-cosmic)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
-- [Umbraco Heartcore](/examples/cms-umbraco-heartcore)
-- [Builder.io](/examples/cms-builder-io)
-- [TinaCMS](/examples/cms-tina/)
-- [Enterspeed](/examples/cms-enterspeed)
+To get started with the project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/uaant/uaant-website.git
+cd uaant-website
+npm install # or yarn install
+```
+
+### Running Locally
+
+To run the website locally, execute the following command:
+
+```bash
+npm run dev # or yarn dev
+```
+
+This will start the development server on [http://localhost:3000](http://localhost:3000).
+
+## Contributing
+
+We welcome contributions from the community. If you would like to contribute to the website, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature (`git checkout -b feature/YourFeature`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add some YourFeature'`)
+5. Push to the branch (`git push origin feature/YourFeature`)
+6. Create a new Pull Request
+
+## Contact
+
+For more information, reach out to us at:
+
+- Email: [uaant.inc@gmail.com](mailto:uaant.inc@gmail.com)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog-starter blog-starter-app
-```
-
-```bash
-yarn create next-app --example blog-starter blog-starter-app
-```
-
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
-```
-
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-# Notes
+### Notes
 
 `blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+
+
+
+## Changelog
+
+
+
+## License
+
+This project is open-sourced under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+A big thank you to all contributors and supporters of UAANT. Your efforts make a significant impact on the Ukrainian community in the Northern Territory.
