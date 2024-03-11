@@ -1,5 +1,4 @@
 import Footer from "@/app/_components/footer";
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -9,10 +8,10 @@ import Header from "./_components/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `So interesting ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+  title: `UAANT - The Ukrainian-Australian Association of Northern Territory`,
+  description: `UAANT - The Ukrainian-Australian Association of Northern Territory`,
   openGraph: {
-    images: [HOME_OG_IMAGE_URL],
+    images: ["/bg-hero.webp"],
   },
 };
 
