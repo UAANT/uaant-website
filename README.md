@@ -17,11 +17,11 @@ This website is built using [Next.js](https://nextjs.org/), a React framework fo
 ### TODO
 ~~1. Make a nice footer~~
 ~~2. Make Header nicer~~
-2. Add T&C and Privace Policy
+~~2. Add T&C and Privace Policy~~
 3. Add About us
 4. Add Contact us
 5. Add FAQ
-6. Add webapp version referrence
+~~6. Add webapp version referrence~~
 7. Integrate with Facebook events
 8. Add Analytics (Google Tag Manager)
 9. Add Masonry grid photo gallery

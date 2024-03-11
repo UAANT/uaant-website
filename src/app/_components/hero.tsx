@@ -11,7 +11,7 @@ export function Hero() {
       <Image className="hover:scale-105 transition-transform duration-700" 
       src='/assets/uaant-logo.webp' alt="UAANT Logo" width={160} height={160} layout="fixed" />
       
-      <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white hover:scale-105 transition-transform duration-700 leading-loose">
+      <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white hover:scale-105 transition-transform duration-700" style={{ lineHeight: 1.5 }}>
         Ukrainian-Australian Association <br /> of Northern Territory
       </h1>
       
