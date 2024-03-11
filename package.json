@@ -3,11 +3,15 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build-patch": "yarn version --patch && genversion version.js && next build",
+    "build-minor": "yarn version --minor && genversion version.js && next build",
+    "build-major": "yarn version --major && genversion version.js && next build"
   },
   "dependencies": {
     "classnames": "^2.5.1",
     "date-fns": "^3.3.1",
+    "genversion": "^3.2.0",
     "gray-matter": "^4.0.3",
     "next": "14.1.0",
     "react": "^18",
@@ -23,5 +27,6 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  }
+  },
+  "version": "0.1.0"
 }
