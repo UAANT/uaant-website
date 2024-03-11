@@ -32,6 +32,7 @@ This website is built using [Next.js](https://nextjs.org/), a React framework fo
 14. Add 4 columns colored block section
 15. Develop t.me/uaant_bot 
 16. Add Donate page
+17. Nice custom page 404
 
 
 

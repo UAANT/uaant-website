@@ -9,3 +9,7 @@ header {
 header a {
     @apply hover:drop-shadow-md transition duration-300;
 }
+
+main {
+    @apply pt-16;
+}
