@@ -8,7 +8,7 @@ export function Support() {
     return (
         <section className="py-24 text-center">
             <div className="flex flex-wrap justify-center items-center gap-8">
-                <p className="text-3xl m-6 text-accent-1 max-w-[280px] leading-tight">
+                <p className="text-3xl m-6 text-accent-1 max-w-[280px] leading-tight font-semibold">
                     We work with the support of official organizations
                 </p>
                 {SUPPORTERS.map((image, index) => (

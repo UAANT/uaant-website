@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header {
+    @apply sticky top-0 z-50 transition bg-white duration-300 drop-shadow-xl;
+}
+
+header a {
+    @apply hover:drop-shadow-md transition duration-300;
+}

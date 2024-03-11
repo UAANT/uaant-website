@@ -14,6 +14,23 @@ Whether you're a newcomer seeking support or an individual passionate about cont
 
 This website is built using [Next.js](https://nextjs.org/), a React framework for production, and is designed to be deployed on platforms like Vercel or Firebase Hosting for optimal performance.
 
+### TODO
+1. Make a nice footer
+~~2. Make Header nicer~~
+2. Add T&C and Privace Policy
+3. Add About us
+4. Add Contact us
+5. Add FAQ
+6. Add webapp version referrence
+7. Integrate with Facebook events
+8. Add Analytics (Google Tag Manager)
+9. Add Masonry grid photo gallery
+10. Add AI chatbot
+11. Add search
+12. Add subscription form
+
+
+
 ### Prerequisites
 
 Before running this project, make sure you have the following installed:
