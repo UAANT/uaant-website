@@ -1,4 +1,7 @@
 // src/app/_components/hero.tsx
+/**
+ * Hero Section - just for the landing page
+ */
 import Image from "next/image";
 
 export function Hero() {

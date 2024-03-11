@@ -1,3 +1,4 @@
+// src/app/_components/post-header.tsx
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
@@ -15,7 +16,7 @@ export function PostHeader({ title, coverImage, date, author }: Props) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
-      <div className="hidden md:block md:mb-12">
+      <div className="hidden md:block md:mb-8">
         <Avatar name={author.name} picture={author.picture} />
       </div>
       <div className="mb-8 md:mb-16 sm:mx-0">

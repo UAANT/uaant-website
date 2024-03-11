@@ -15,7 +15,7 @@ Whether you're a newcomer seeking support or an individual passionate about cont
 This website is built using [Next.js](https://nextjs.org/), a React framework for production, and is designed to be deployed on platforms like Vercel or Firebase Hosting for optimal performance.
 
 ### TODO
-1. Make a nice footer
+~~1. Make a nice footer~~
 ~~2. Make Header nicer~~
 2. Add T&C and Privace Policy
 3. Add About us
@@ -28,6 +28,10 @@ This website is built using [Next.js](https://nextjs.org/), a React framework fo
 10. Add AI chatbot
 11. Add search
 12. Add subscription form
+13. "Support the association" section
+14. Add 4 columns colored block section
+15. Develop t.me/uaant_bot 
+16. Add Donate page
 
 
 
