@@ -9,3 +9,7 @@ header {
 header a {
     @apply hover:drop-shadow-md transition duration-300;
 }
+
+h1 {
+    line-height: 1.75;
+}

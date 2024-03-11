@@ -24,7 +24,7 @@ export function PostPreview({
 }: Props) {
   return (
     <div>
-      <div className="mb-2 max-h-[240px] overflow-hidden">
+      <div className="mb-2 max-h-[200px] overflow-hidden">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
       <h3 className="text-2xl mb-3 leading-snug">
