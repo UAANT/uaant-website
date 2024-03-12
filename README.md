@@ -28,11 +28,11 @@ This website is built using [Next.js](https://nextjs.org/), a React framework fo
 10. Add AI chatbot
 11. Add search
 12. Add subscription form
-13. "Support the association" section
-14. Add 4 columns colored block section
+~~13. "Support the association" section~~
+~~14. Add 4 columns colored block section~~
 15. Develop t.me/uaant_bot 
-16. Add Donate page
-17. Nice custom page 404
+~~16. Add PP Donate section~~
+~~17. Nice custom page 404~~
 
 
 

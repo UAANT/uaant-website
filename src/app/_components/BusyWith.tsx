@@ -61,7 +61,7 @@ const BusyWith = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">
             {sections.map((section, index) => (
                 <div key={index} className={`bg-gradient-to-r p-8 text-white ${section.gradient}`}>
-                    <h3 className="font-bold text-lg mb-3">{section.title}</h3>
+                    <h3 className="font-bold text-lg mb-3 text-white underline">{section.title}</h3>
                     {section.items ? (
                         <ul className="list-disc list-inside text-sm">
                             {section.items.map((item, itemIndex) => (
