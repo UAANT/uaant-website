@@ -35,8 +35,8 @@ const Header = () => {
 
         {/* Buttons */}
         <div className="hidden md:flex space-x-4">
-          <Link href="#donate"><span className="bg-accent-1 hover:bg-hover-accent-1 px-4 py-2 text-white cursor-pointer">Donate Now</span></Link>
-          <Link href="#volunteer"><span className="bg-accent-2 hover:bg-hover-accent-2 px-4 py-2 text-accent-1 cursor-pointer">Volunteer</span></Link>
+          <Link href="/#donate"><span className="bg-accent-1 hover:bg-hover-accent-1 px-4 py-2 text-white cursor-pointer">Donate Now</span></Link>
+          <Link href="/volunteer"><span className="bg-accent-2 hover:bg-hover-accent-2 px-4 py-2 text-accent-1 cursor-pointer">Volunteer</span></Link>
         </div>
 
         {/* Mobile Navigation Button */}
@@ -62,8 +62,8 @@ const Header = () => {
               <span className="block p-2">{item.title}</span>
             </Link>
           ))}
-          <Link href="#donate"><span className="block my-2 bg-accent-1 hover:bg-blue-600 px-4 py-2 transition duration-300 text-white text-center">Donate Now</span></Link>
-          <Link href="#volunteer"><span className="block bg-accent-2 hover:bg-yellow-600 px-4 py-2 transition duration-300 text-accent-1 text-center">Volunteer</span></Link>
+          <Link href="/#donate"><span className="block my-2 bg-accent-1 hover:bg-blue-600 px-4 py-2 transition duration-300 text-white text-center">Donate Now</span></Link>
+          <Link href="/volunteer"><span className="block bg-accent-2 hover:bg-yellow-600 px-4 py-2 transition duration-300 text-accent-1 text-center">Volunteer</span></Link>
         </div>
 
       </div>

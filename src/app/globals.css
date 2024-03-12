@@ -13,3 +13,7 @@ header a {
 main {
     @apply pt-16;
 }
+
+h1, h2, h3 {
+    @apply text-accent-1;
+}
