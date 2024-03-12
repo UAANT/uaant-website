@@ -1,7 +1,16 @@
+/* styles/globals.css */
+@font-face {
+    font-family: 'Proxima-N-W01-Reg';
+    src: url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/64017d81-9430-4cba-8219-8f5cc28b923e.woff2') format('woff2'),
+        url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff') format('woff');
+    font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Other global styles */
 header {
     @apply sticky top-0 z-50 transition bg-white duration-300 drop-shadow-xl;
 }
@@ -14,6 +23,8 @@ main {
     @apply pt-16;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     @apply text-accent-1;
 }

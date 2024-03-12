@@ -33,6 +33,7 @@ This website is built using [Next.js](https://nextjs.org/), a React framework fo
 15. Develop t.me/uaant_bot 
 ~~16. Add PP Donate section~~
 ~~17. Nice custom page 404~~
+~~18. Applied Proxima font~~
 
 
 
