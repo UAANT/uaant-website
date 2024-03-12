@@ -16,7 +16,7 @@ export default function Index() {
   const morePosts = allPosts.slice(1);
 
   return (
-    <main>
+    <main className="pt-0">
       <Hero />
       <Container>
         <Support />
