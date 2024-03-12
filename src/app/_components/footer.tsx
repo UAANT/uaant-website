@@ -1,8 +1,8 @@
 // src/app/_components/footer.tsx
-import Container from "@/_components/container";
+import Container from "@/app/_components/container";
 import Image from 'next/image';
 import Link from "next/link";
-import version from "../../version";
+import version from "../../../version";
 
 export function Footer() {
   return (

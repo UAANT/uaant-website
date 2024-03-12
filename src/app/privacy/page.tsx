@@ -1,5 +1,5 @@
 // src/app/privacy/page.tsx
-import Container from "@/_components/container";
+import Container from "@/app/_components/container";
 
 export default function PrivacyPage() {
   return (

@@ -1,9 +1,9 @@
-import Container from "@/_components/container";
-import { HeroPost } from "@/_components/hero-post";
-import { MoreStories } from "@/_components/more-stories";
+import Container from "@/app/_components/container";
+import { HeroPost } from "@/app/_components/hero-post";
+import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
-import { Hero } from "@/_components/hero";
-import { Support } from "@/_components/support";
+import { Hero } from "@/app/_components/hero";
+import { Support } from "@/app/_components/support";
 
 export default function Index() {
   const allPosts = getAllPosts();

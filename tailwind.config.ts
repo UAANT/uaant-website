@@ -15,9 +15,9 @@ const config: Config = {
       },
       colors: {
         'accent-1': 'rgb(52, 91, 182)',
-        'hover-accent-1': 'rgb(82, 121, 212)', // lighter blue for hover
+        'hover-accent-1': 'rgb(82, 121, 212)',
         'accent-2': 'rgb(246, 222, 101)',
-        'hover-accent-2': 'rgb(226, 202, 81)', // darker yellow for hover
+        'hover-accent-2': 'rgb(226, 202, 81)',
 
         success: "#0070f3",
         cyan: "#79FFE1",
